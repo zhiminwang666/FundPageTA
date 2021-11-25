@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Author: Greg -->
+<!-- Date: Oct 28, 2021 -->
+<!-- Create for: Wealth Fomula Test Suite -->
+<suite name="WealthFomulaTestSuite">
+	<!-- &#10; is a special symbol in XML as \n in txt -->
+	<parameter name="stock_info" value="MSFT-Microsoft Corporation[Stocks],01 May 2017,5&#10;ADBE-Adobe Inc.[Stocks],01 May 2018,50&#10;GOOG-Alphabet Inc.[Stocks],01 May 2019,500&#10;"></parameter>
+	<test thread-count="5" name="WealthFomulaTest">
+		<classes>
+			<class name="wf.QuarterlyInvestmentAndTotal" />
+			<class name="wf.QuarterlyTotalValueAndReturn" />
+			<class name="wf.YearlyInvestmentAndTotal" />
+			<class name="wf.YearlyShareAndCash" />
+			<class name="wf.MonthlyTotalValueAndReturn" />
+			<class name="wf.OnceAtTheBeginningInvestmentAndTotal" />
+			<class name="wf.OnceAtTheBeginningShareAndCash" />
+			<class name="wf.MonthlyInvestmentAndTotal" />
+			<class name="wf.QuarterlyShareAndCash" />
+			<class name="wf.MonthlyShareAndCash" />
+			<class name="wf.OnceAtTheBeginningTotalValueAndReturn" />
+			<class name="wf.YearlyTotalValueAndReturn" />
+		</classes>
+	</test>
+</suite>
