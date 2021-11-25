@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="FundpageSuite1">
+	<!--	<test thread-count="1" name="SecuriteSearchByIE">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="Search.SecuritiesSearch"></class>
+		</classes> 
+	</test> -->
+	<!-- SecuriteSearchByIE -->
+	<test thread-count="3" parallel="classes" name="SecuriteSearchByFirefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="Search.SecuritiesSearch"></class>
+			<class name="Search.SecuritesCompare"></class>
+			<class name="Message.MessageVerificationInMyInbox"></class>
+		</classes>
+	</test> <!-- SecuriteSearchByFirefox-->
+	<test thread-count="3" parallel="classes" name="WealthFomulaTest">
+		<parameter name="stock_info" value="MSFT-Microsoft Corporation[Stocks],01 May 2017,5&#10;ADBE-Adobe Inc.[Stocks],01 May 2018,50&#10;GOOG-Alphabet Inc.[Stocks],01 May 2019,500&#10;AAPL-Apple Inc.[Stocks],01 May 2016,6&#10;"></parameter>
+		<classes>
+			<class name="WealthFomula.MonthlyInvestmentAndTotal" />
+			<class name="WealthFomula.MonthlyShareAndCash" />
+			<class name="WealthFomula.MonthlyTotalValueAndReturn" />
+			<class name="WealthFomula.QuarterlyInvestmentAndTotal" />
+			<class name="WealthFomula.QuarterlyShareAndCash" />
+			<class name="WealthFomula.QuarterlyTotalValueAndReturn" />
+			<class name="WealthFomula.YearlyInvestmentAndTotal" />
+			<class name="WealthFomula.YearlyShareAndCash" />
+			<class name="WealthFomula.YearlyTotalValueAndReturn" />
+			<class name="WealthFomula.OnceAtTheBeginningInvestmentAndTotal" />
+			<class name="WealthFomula.OnceAtTheBeginningShareAndCash" />
+			<class name="WealthFomula.OnceAtTheBeginningTotalValueAndReturn" />
+		</classes>
+	</test>
+	<test thread-count="3" parallel="classes" name="SecuriteSearchByChrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="Search.SecuritiesSearch"></class>
+			<class name="Search.SecuritesCompare"></class>
+			<class name="Message.MessageVerificationInMyInbox"></class>
+		</classes>
+	</test> <!-- SecuriteSearchByChrome -->
+	<test thread-count="3" parallel="classes" name="SecuriteSearchByEdge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="Search.SecuritiesSearch"></class>
+			<class name="Search.SecuritesCompare"></class>
+			<class name="Message.MessageVerificationInMyInbox"></class>
+		</classes>
+	</test>
+	<!-- SecuriteSearchByEdge -->
+	<test thread-count="3" parallel="classes" name="SecuriteSearchByOpera">
+		<parameter name="browser" value="Opera" />
+		<classes>
+			<class name="Search.SecuritiesSearch"></class>
+			<class name="Search.SecuritesCompare"></class>
+			<class name="Message.MessageVerificationInMyInbox"></class>
+		</classes>
+	</test> <!-- SecuriteSearchByOpera -->
+</suite> <!-- FundpageSuite1 -->
