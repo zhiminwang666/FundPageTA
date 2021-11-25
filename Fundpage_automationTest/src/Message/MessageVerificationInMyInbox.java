@@ -27,7 +27,7 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
-import org.testng.annotations.Test; 
+import org.testng.annotations.Test;
 
 public class MessageVerificationInMyInbox {
 	private WebDriver driver;
