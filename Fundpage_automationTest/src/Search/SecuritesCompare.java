@@ -18,15 +18,12 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-// test update conflictaaa bbcc
-//bbb
 public class SecuritesCompare {
 	private WebDriver driver;
 	private StringBuffer verificationErrors = new StringBuffer();
 	private List<String> TickersList = new ArrayList<String>();
 	// private String browser;
 
-	// update the code
 	@Parameters("browser")
 	@BeforeClass(alwaysRun = true)
 	public void setUp(String browser) throws Exception {
