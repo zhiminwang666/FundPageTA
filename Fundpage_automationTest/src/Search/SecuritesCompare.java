@@ -18,7 +18,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-// test update conflict
+// test update conflictaaa bbcc
 public class SecuritesCompare {
 	private WebDriver driver;
 	private StringBuffer verificationErrors = new StringBuffer();
