@@ -25,7 +25,7 @@ public class SecuritesCompare {
 	private List<String> TickersList = new ArrayList<String>();
 	// private String browser;
 
-	
+	// update the code
 	@Parameters("browser")
 	@BeforeClass(alwaysRun = true)
 	public void setUp(String browser) throws Exception {
