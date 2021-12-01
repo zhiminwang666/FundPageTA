@@ -1,0 +1,615 @@
+<html>
+<head>
+<title>TestNG:  WealthFomulaTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>WealthFomulaTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 01 15:09:18 CST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>1177 seconds (1177875 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.ui.WealthFormula.OnceAtTheBeginningShareAndCash.wealthFormula()'><b>wealthFormula</b><br>Test class: test.ui.WealthFormula.OnceAtTheBeginningShareAndCash<br>Parameters: MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+<a href="#Output-57617374" onClick='toggleBox("Output-57617374", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-57617374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-57617374">
+Wealth Formula Once At The Beginning Share and Cash Test <br/>
+MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	AAPL-Apple Inc.[Stocks] 2020-09-01 Share is incorrect expected [590] but found [596]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at test.ui.WealthFormula.OnceAtTheBeginningShareAndCash.wealthFormula(OnceAtTheBeginningShareAndCash.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div><a href='#' onClick='toggleBox("stack-trace57617374", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace57617374'><pre>java.lang.AssertionError: The following asserts failed:
+	AAPL-Apple Inc.[Stocks] 2020-09-01 Share is incorrect expected [590] but found [596]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at test.ui.WealthFormula.OnceAtTheBeginningShareAndCash.wealthFormula(OnceAtTheBeginningShareAndCash.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div></td>
+<td>215</td>
+<td>test.ui.WealthFormula.OnceAtTheBeginningShareAndCash@63a12c68</td></tr>
+<tr>
+<td title='test.ui.WealthFormula.YearlyShareAndCash.wealthFormula()'><b>wealthFormula</b><br>Test class: test.ui.WealthFormula.YearlyShareAndCash<br>Parameters: MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+<a href="#Output-54564375" onClick='toggleBox("Output-54564375", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-54564375" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-54564375">
+Wealth Formula Yearly Share and Cash Test <br/>
+MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	MSFT-Microsoft Corporation[Stocks] 2017-06-01 Cash is incorrect expected [true] but found [false],
+	MSFT-Microsoft Corporation[Stocks] 2019-06-03 Cash is incorrect expected [true] but found [false],
+	MSFT-Microsoft Corporation[Stocks] 2021-06-01 Cash is incorrect expected [true] but found [false],
+	GOOG-Alphabet Inc.[Stocks] 2019-05-01 Cash is incorrect expected [true] but found [false],
+	GOOG-Alphabet Inc.[Stocks] 2020-01-02 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2017-06-01 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2018-03-01 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2019-06-03 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2020-09-01 Share is incorrect expected [312] but found [314],
+	AAPL-Apple Inc.[Stocks] 2020-09-01 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2021-03-01 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2021-09-01 Cash is incorrect expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at test.ui.WealthFormula.YearlyShareAndCash.wealthFormula(YearlyShareAndCash.java:269)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div><a href='#' onClick='toggleBox("stack-trace54564375", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace54564375'><pre>java.lang.AssertionError: The following asserts failed:
+	MSFT-Microsoft Corporation[Stocks] 2017-06-01 Cash is incorrect expected [true] but found [false],
+	MSFT-Microsoft Corporation[Stocks] 2019-06-03 Cash is incorrect expected [true] but found [false],
+	MSFT-Microsoft Corporation[Stocks] 2021-06-01 Cash is incorrect expected [true] but found [false],
+	GOOG-Alphabet Inc.[Stocks] 2019-05-01 Cash is incorrect expected [true] but found [false],
+	GOOG-Alphabet Inc.[Stocks] 2020-01-02 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2017-06-01 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2018-03-01 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2019-06-03 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2020-09-01 Share is incorrect expected [312] but found [314],
+	AAPL-Apple Inc.[Stocks] 2020-09-01 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2021-03-01 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2021-09-01 Cash is incorrect expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at test.ui.WealthFormula.YearlyShareAndCash.wealthFormula(YearlyShareAndCash.java:269)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div></td>
+<td>395</td>
+<td>test.ui.WealthFormula.YearlyShareAndCash@78123e82</td></tr>
+<tr>
+<td title='test.ui.WealthFormula.QuarterlyTotalValueAndReturn.wealthFormula()'><b>wealthFormula</b><br>Test class: test.ui.WealthFormula.QuarterlyTotalValueAndReturn<br>Parameters: MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+<a href="#Output-1837773330" onClick='toggleBox("Output-1837773330", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1837773330" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1837773330">
+Wealth Formula quarterly Total Value and Return Test <br/>
+MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NumberFormatException: empty String
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.base/java.lang.Float.parseFloat(Float.java:468)
+	at test.ui.WealthFormula.QuarterlyTotalValueAndReturn.wealthFormula(QuarterlyTotalValueAndReturn.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1837773330", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1837773330'><pre>java.lang.NumberFormatException: empty String
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.base/java.lang.Float.parseFloat(Float.java:468)
+	at test.ui.WealthFormula.QuarterlyTotalValueAndReturn.wealthFormula(QuarterlyTotalValueAndReturn.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div></td>
+<td>42</td>
+<td>test.ui.WealthFormula.QuarterlyTotalValueAndReturn@57d7f8ca</td></tr>
+<tr>
+<td title='test.ui.WealthFormula.OnceAtTheBeginningTotalValueAndReturn.wealthFormula()'><b>wealthFormula</b><br>Test class: test.ui.WealthFormula.OnceAtTheBeginningTotalValueAndReturn<br>Parameters: MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+<a href="#Output-879448870" onClick='toggleBox("Output-879448870", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-879448870" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-879448870">
+Wealth Formula Once At The Beginning Total Value and Return Test <br/>
+MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	MSFT-Microsoft Corporation[Stocks] 2021-12-01 Return is incorrect expected [404.95] but found [404.94]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at test.ui.WealthFormula.OnceAtTheBeginningTotalValueAndReturn.wealthFormula(OnceAtTheBeginningTotalValueAndReturn.java:152)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div><a href='#' onClick='toggleBox("stack-trace879448870", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace879448870'><pre>java.lang.AssertionError: The following asserts failed:
+	MSFT-Microsoft Corporation[Stocks] 2021-12-01 Return is incorrect expected [404.95] but found [404.94]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at test.ui.WealthFormula.OnceAtTheBeginningTotalValueAndReturn.wealthFormula(OnceAtTheBeginningTotalValueAndReturn.java:152)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div></td>
+<td>180</td>
+<td>test.ui.WealthFormula.OnceAtTheBeginningTotalValueAndReturn@28f3b248</td></tr>
+<tr>
+<td title='test.ui.WealthFormula.QuarterlyShareAndCash.wealthFormula()'><b>wealthFormula</b><br>Test class: test.ui.WealthFormula.QuarterlyShareAndCash<br>Parameters: MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+<a href="#Output-966079291" onClick='toggleBox("Output-966079291", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-966079291" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-966079291">
+Wealth Formula Quarterly Share and Cash Test <br/>
+MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	AAPL-Apple Inc.[Stocks] 2020-09-01 Share is incorrect expected [246] but found [250],
+	AAPL-Apple Inc.[Stocks] 2020-09-01 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2021-03-01 Share is incorrect expected [260] but found [261],
+	AAPL-Apple Inc.[Stocks] 2021-06-01 Share is incorrect expected [266] but found [267]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at test.ui.WealthFormula.QuarterlyShareAndCash.wealthFormula(QuarterlyShareAndCash.java:269)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div><a href='#' onClick='toggleBox("stack-trace966079291", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace966079291'><pre>java.lang.AssertionError: The following asserts failed:
+	AAPL-Apple Inc.[Stocks] 2020-09-01 Share is incorrect expected [246] but found [250],
+	AAPL-Apple Inc.[Stocks] 2020-09-01 Cash is incorrect expected [true] but found [false],
+	AAPL-Apple Inc.[Stocks] 2021-03-01 Share is incorrect expected [260] but found [261],
+	AAPL-Apple Inc.[Stocks] 2021-06-01 Share is incorrect expected [266] but found [267]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at test.ui.WealthFormula.QuarterlyShareAndCash.wealthFormula(QuarterlyShareAndCash.java:269)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div></td>
+<td>181</td>
+<td>test.ui.WealthFormula.QuarterlyShareAndCash@6d4e5011</td></tr>
+<tr>
+<td title='test.ui.WealthFormula.YearlyTotalValueAndReturn.wealthFormula()'><b>wealthFormula</b><br>Test class: test.ui.WealthFormula.YearlyTotalValueAndReturn<br>Parameters: MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+<a href="#Output-1827202295" onClick='toggleBox("Output-1827202295", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1827202295" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1827202295">
+Wealth Formula Yearly Total Value and Return Test <br/>
+MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	MSFT-Microsoft Corporation[Stocks] 2018-12-03 Return is incorrect expected [49.16] but found [49.17],
+	MSFT-Microsoft Corporation[Stocks] 2021-01-04 Return is incorrect expected [110.1] but found [110.11]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at test.ui.WealthFormula.YearlyTotalValueAndReturn.wealthFormula(YearlyTotalValueAndReturn.java:151)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1827202295", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1827202295'><pre>java.lang.AssertionError: The following asserts failed:
+	MSFT-Microsoft Corporation[Stocks] 2018-12-03 Return is incorrect expected [49.16] but found [49.17],
+	MSFT-Microsoft Corporation[Stocks] 2021-01-04 Return is incorrect expected [110.1] but found [110.11]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at test.ui.WealthFormula.YearlyTotalValueAndReturn.wealthFormula(YearlyTotalValueAndReturn.java:151)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div></td>
+<td>389</td>
+<td>test.ui.WealthFormula.YearlyTotalValueAndReturn@67c33749</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.ui.WealthFormula.MonthlyInvestmentAndTotal.wealthFormula()'><b>wealthFormula</b><br>Test class: test.ui.WealthFormula.MonthlyInvestmentAndTotal<br>Parameters: MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+<a href="#Output-2074300049" onClick='toggleBox("Output-2074300049", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2074300049" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2074300049">
+Wealth Formula Monthly Investment and Investment Total Test <br/>
+MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+</div>
+</td>
+<td></td>
+<td>351</td>
+<td>test.ui.WealthFormula.MonthlyInvestmentAndTotal@3d5c822d</td></tr>
+<tr>
+<td title='test.ui.WealthFormula.MonthlyShareAndCash.wealthFormula()'><b>wealthFormula</b><br>Test class: test.ui.WealthFormula.MonthlyShareAndCash<br>Parameters: MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+<a href="#Output-341113558" onClick='toggleBox("Output-341113558", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-341113558" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-341113558">
+Wealth Formula Monthly Share and Cash Test <br/>
+MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+</div>
+</td>
+<td></td>
+<td>359</td>
+<td>test.ui.WealthFormula.MonthlyShareAndCash@5403f35f</td></tr>
+<tr>
+<td title='test.ui.WealthFormula.QuarterlyInvestmentAndTotal.wealthFormula()'><b>wealthFormula</b><br>Test class: test.ui.WealthFormula.QuarterlyInvestmentAndTotal<br>Parameters: MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+<a href="#Output-2142544256" onClick='toggleBox("Output-2142544256", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2142544256" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2142544256">
+Wealth Formula Quarterly Investment and Investment Total Test <br/>
+MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+</div>
+</td>
+<td></td>
+<td>180</td>
+<td>test.ui.WealthFormula.QuarterlyInvestmentAndTotal@1b1426f4</td></tr>
+<tr>
+<td title='test.ui.WealthFormula.OnceAtTheBeginningInvestmentAndTotal.wealthFormula()'><b>wealthFormula</b><br>Test class: test.ui.WealthFormula.OnceAtTheBeginningInvestmentAndTotal<br>Parameters: MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+<a href="#Output-720932654" onClick='toggleBox("Output-720932654", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-720932654" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-720932654">
+Wealth Formula Once At The Beginning Investment and Investment Total Test <br/>
+MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+</div>
+</td>
+<td></td>
+<td>192</td>
+<td>test.ui.WealthFormula.OnceAtTheBeginningInvestmentAndTotal@7e5afaa6</td></tr>
+<tr>
+<td title='test.ui.WealthFormula.YearlyInvestmentAndTotal.wealthFormula()'><b>wealthFormula</b><br>Test class: test.ui.WealthFormula.YearlyInvestmentAndTotal<br>Parameters: MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+<a href="#Output-460330060" onClick='toggleBox("Output-460330060", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-460330060" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-460330060">
+Wealth Formula Yearly Investment and Investment Total Test <br/>
+MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+</div>
+</td>
+<td></td>
+<td>271</td>
+<td>test.ui.WealthFormula.YearlyInvestmentAndTotal@76c3e77a</td></tr>
+<tr>
+<td title='test.ui.WealthFormula.MonthlyTotalValueAndReturn.wealthFormula()'><b>wealthFormula</b><br>Test class: test.ui.WealthFormula.MonthlyTotalValueAndReturn<br>Parameters: MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+<a href="#Output-1796330190" onClick='toggleBox("Output-1796330190", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1796330190" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1796330190">
+Wealth Formula Monthly Total Value and Return Test <br/>
+MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+<br/>
+</div>
+</td>
+<td></td>
+<td>380</td>
+<td>test.ui.WealthFormula.MonthlyTotalValueAndReturn@483f6d77</td></tr>
+</table><p>
+</body>
+</html>

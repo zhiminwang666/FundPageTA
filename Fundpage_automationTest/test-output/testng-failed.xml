@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [FundpageSuite1]" guice-stage="DEVELOPMENT" verbose="10">
+  <test thread-count="1" parallel="classes" name="WealthFomulaTest(failed)" verbose="10">
+    <parameter name="stock_info" value="MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+"/>
+    <classes>
+      <class name="test.ui.WealthFormula.QuarterlyTotalValueAndReturn">
+        <methods>
+          <include name="tearDown"/>
+          <include name="wealthFormula" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.ui.WealthFormula.QuarterlyTotalValueAndReturn -->
+      <class name="test.ui.WealthFormula.QuarterlyShareAndCash">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="wealthFormula" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.ui.WealthFormula.QuarterlyShareAndCash -->
+      <class name="test.ui.WealthFormula.OnceAtTheBeginningShareAndCash">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="wealthFormula" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.ui.WealthFormula.OnceAtTheBeginningShareAndCash -->
+      <class name="test.ui.WealthFormula.YearlyTotalValueAndReturn">
+        <methods>
+          <include name="wealthFormula" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.ui.WealthFormula.YearlyTotalValueAndReturn -->
+      <class name="test.ui.WealthFormula.YearlyShareAndCash">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="wealthFormula" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.ui.WealthFormula.YearlyShareAndCash -->
+      <class name="test.ui.WealthFormula.OnceAtTheBeginningTotalValueAndReturn">
+        <methods>
+          <include name="wealthFormula" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.ui.WealthFormula.OnceAtTheBeginningTotalValueAndReturn -->
+    </classes>
+  </test> <!-- WealthFomulaTest(failed) -->
+</suite> <!-- Failed suite [FundpageSuite1] -->

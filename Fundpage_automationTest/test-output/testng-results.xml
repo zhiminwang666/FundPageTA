@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="6" failed="6" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Wealth Formula Monthly Total Value and Return Test ]]>
+    </line>
+    <line>
+      <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+    </line>
+    <line>
+      <![CDATA[Wealth Formula Monthly Investment and Investment Total Test ]]>
+    </line>
+    <line>
+      <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+    </line>
+    <line>
+      <![CDATA[Wealth Formula Monthly Share and Cash Test ]]>
+    </line>
+    <line>
+      <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+    </line>
+    <line>
+      <![CDATA[Wealth Formula Once At The Beginning Investment and Investment Total Test ]]>
+    </line>
+    <line>
+      <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+    </line>
+    <line>
+      <![CDATA[Wealth Formula Once At The Beginning Share and Cash Test ]]>
+    </line>
+    <line>
+      <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+    </line>
+    <line>
+      <![CDATA[Wealth Formula Once At The Beginning Total Value and Return Test ]]>
+    </line>
+    <line>
+      <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+    </line>
+    <line>
+      <![CDATA[Wealth Formula Quarterly Investment and Investment Total Test ]]>
+    </line>
+    <line>
+      <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+    </line>
+    <line>
+      <![CDATA[Wealth Formula Quarterly Share and Cash Test ]]>
+    </line>
+    <line>
+      <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+    </line>
+    <line>
+      <![CDATA[Wealth Formula quarterly Total Value and Return Test ]]>
+    </line>
+    <line>
+      <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+    </line>
+    <line>
+      <![CDATA[Wealth Formula Yearly Investment and Investment Total Test ]]>
+    </line>
+    <line>
+      <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+    </line>
+    <line>
+      <![CDATA[Wealth Formula Yearly Share and Cash Test ]]>
+    </line>
+    <line>
+      <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+    </line>
+    <line>
+      <![CDATA[Wealth Formula Yearly Total Value and Return Test ]]>
+    </line>
+    <line>
+      <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-01T15:09:18 CST" name="FundpageSuite1" finished-at="2021-12-01T15:28:56 CST" duration-ms="1177875">
+    <groups>
+    </groups>
+    <test started-at="2021-12-01T15:09:18 CST" name="WealthFomulaTest" finished-at="2021-12-01T15:28:56 CST" duration-ms="1177875">
+      <class name="test.ui.WealthFormula.MonthlyTotalValueAndReturn">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ui.WealthFormula.MonthlyTotalValueAndReturn@483f6d77]" started-at="2021-12-01T15:09:18 CST" name="setUp" finished-at="2021-12-01T15:09:30 CST" duration-ms="12168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wealthFormula(java.lang.String)[pri:0, instance:test.ui.WealthFormula.MonthlyTotalValueAndReturn@483f6d77]" started-at="2021-12-01T15:09:30 CST" name="wealthFormula" finished-at="2021-12-01T15:15:50 CST" duration-ms="380189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Wealth Formula Monthly Total Value and Return Test ]]>
+            </line>
+            <line>
+              <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wealthFormula -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ui.WealthFormula.MonthlyTotalValueAndReturn@483f6d77]" started-at="2021-12-01T15:15:50 CST" name="tearDown" finished-at="2021-12-01T15:15:52 CST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ui.WealthFormula.MonthlyTotalValueAndReturn -->
+      <class name="test.ui.WealthFormula.OnceAtTheBeginningShareAndCash">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ui.WealthFormula.OnceAtTheBeginningShareAndCash@63a12c68]" started-at="2021-12-01T15:15:33 CST" name="setUp" finished-at="2021-12-01T15:15:42 CST" duration-ms="9157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wealthFormula(java.lang.String)[pri:0, instance:test.ui.WealthFormula.OnceAtTheBeginningShareAndCash@63a12c68]" started-at="2021-12-01T15:15:42 CST" name="wealthFormula" finished-at="2021-12-01T15:19:17 CST" duration-ms="215584" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+AAPL-Apple Inc.[Stocks] 2020-09-01 Share is incorrect expected [590] but found [596]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+AAPL-Apple Inc.[Stocks] 2020-09-01 Share is incorrect expected [590] but found [596]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at test.ui.WealthFormula.OnceAtTheBeginningShareAndCash.wealthFormula(OnceAtTheBeginningShareAndCash.java:271)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Wealth Formula Once At The Beginning Share and Cash Test ]]>
+            </line>
+            <line>
+              <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wealthFormula -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ui.WealthFormula.OnceAtTheBeginningShareAndCash@63a12c68]" started-at="2021-12-01T15:19:17 CST" name="tearDown" finished-at="2021-12-01T15:19:20 CST" duration-ms="2789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ui.WealthFormula.OnceAtTheBeginningShareAndCash -->
+      <class name="test.ui.WealthFormula.OnceAtTheBeginningInvestmentAndTotal">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ui.WealthFormula.OnceAtTheBeginningInvestmentAndTotal@7e5afaa6]" started-at="2021-12-01T15:15:24 CST" name="setUp" finished-at="2021-12-01T15:15:33 CST" duration-ms="8922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wealthFormula(java.lang.String)[pri:0, instance:test.ui.WealthFormula.OnceAtTheBeginningInvestmentAndTotal@7e5afaa6]" started-at="2021-12-01T15:15:33 CST" name="wealthFormula" finished-at="2021-12-01T15:18:46 CST" duration-ms="192950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Wealth Formula Once At The Beginning Investment and Investment Total Test ]]>
+            </line>
+            <line>
+              <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wealthFormula -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ui.WealthFormula.OnceAtTheBeginningInvestmentAndTotal@7e5afaa6]" started-at="2021-12-01T15:18:46 CST" name="tearDown" finished-at="2021-12-01T15:18:47 CST" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ui.WealthFormula.OnceAtTheBeginningInvestmentAndTotal -->
+      <class name="test.ui.WealthFormula.QuarterlyTotalValueAndReturn">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ui.WealthFormula.QuarterlyTotalValueAndReturn@57d7f8ca]" started-at="2021-12-01T15:19:20 CST" name="setUp" finished-at="2021-12-01T15:19:28 CST" duration-ms="8248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wealthFormula(java.lang.String)[pri:0, instance:test.ui.WealthFormula.QuarterlyTotalValueAndReturn@57d7f8ca]" started-at="2021-12-01T15:19:28 CST" name="wealthFormula" finished-at="2021-12-01T15:20:11 CST" duration-ms="42713" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[empty String]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: empty String
+at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+at java.base/java.lang.Float.parseFloat(Float.java:468)
+at test.ui.WealthFormula.QuarterlyTotalValueAndReturn.wealthFormula(QuarterlyTotalValueAndReturn.java:121)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Wealth Formula quarterly Total Value and Return Test ]]>
+            </line>
+            <line>
+              <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wealthFormula -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ui.WealthFormula.QuarterlyTotalValueAndReturn@57d7f8ca]" started-at="2021-12-01T15:20:11 CST" name="tearDown" finished-at="2021-12-01T15:20:13 CST" duration-ms="2286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ui.WealthFormula.QuarterlyTotalValueAndReturn -->
+      <class name="test.ui.WealthFormula.YearlyShareAndCash">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ui.WealthFormula.YearlyShareAndCash@78123e82]" started-at="2021-12-01T15:21:57 CST" name="setUp" finished-at="2021-12-01T15:22:04 CST" duration-ms="7348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wealthFormula(java.lang.String)[pri:0, instance:test.ui.WealthFormula.YearlyShareAndCash@78123e82]" started-at="2021-12-01T15:22:04 CST" name="wealthFormula" finished-at="2021-12-01T15:28:39 CST" duration-ms="395322" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+MSFT-Microsoft Corporation[Stocks] 2017-06-01 Cash is incorrect expected [true] but found [false],
+MSFT-Microsoft Corporation[Stocks] 2019-06-03 Cash is incorrect expected [true] but found [false],
+MSFT-Microsoft Corporation[Stocks] 2021-06-01 Cash is incorrect expected [true] but found [false],
+GOOG-Alphabet Inc.[Stocks] 2019-05-01 Cash is incorrect expected [true] but found [false],
+GOOG-Alphabet Inc.[Stocks] 2020-01-02 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2017-06-01 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2018-03-01 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2019-06-03 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2020-09-01 Share is incorrect expected [312] but found [314],
+AAPL-Apple Inc.[Stocks] 2020-09-01 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2021-03-01 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2021-09-01 Cash is incorrect expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+MSFT-Microsoft Corporation[Stocks] 2017-06-01 Cash is incorrect expected [true] but found [false],
+MSFT-Microsoft Corporation[Stocks] 2019-06-03 Cash is incorrect expected [true] but found [false],
+MSFT-Microsoft Corporation[Stocks] 2021-06-01 Cash is incorrect expected [true] but found [false],
+GOOG-Alphabet Inc.[Stocks] 2019-05-01 Cash is incorrect expected [true] but found [false],
+GOOG-Alphabet Inc.[Stocks] 2020-01-02 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2017-06-01 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2018-03-01 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2019-06-03 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2020-09-01 Share is incorrect expected [312] but found [314],
+AAPL-Apple Inc.[Stocks] 2020-09-01 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2021-03-01 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2021-09-01 Cash is incorrect expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at test.ui.WealthFormula.YearlyShareAndCash.wealthFormula(YearlyShareAndCash.java:269)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Wealth Formula Yearly Share and Cash Test ]]>
+            </line>
+            <line>
+              <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wealthFormula -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ui.WealthFormula.YearlyShareAndCash@78123e82]" started-at="2021-12-01T15:28:39 CST" name="tearDown" finished-at="2021-12-01T15:28:41 CST" duration-ms="1707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ui.WealthFormula.YearlyShareAndCash -->
+      <class name="test.ui.WealthFormula.QuarterlyShareAndCash">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ui.WealthFormula.QuarterlyShareAndCash@6d4e5011]" started-at="2021-12-01T15:19:04 CST" name="setUp" finished-at="2021-12-01T15:19:13 CST" duration-ms="8949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wealthFormula(java.lang.String)[pri:0, instance:test.ui.WealthFormula.QuarterlyShareAndCash@6d4e5011]" started-at="2021-12-01T15:19:13 CST" name="wealthFormula" finished-at="2021-12-01T15:22:15 CST" duration-ms="181811" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+AAPL-Apple Inc.[Stocks] 2020-09-01 Share is incorrect expected [246] but found [250],
+AAPL-Apple Inc.[Stocks] 2020-09-01 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2021-03-01 Share is incorrect expected [260] but found [261],
+AAPL-Apple Inc.[Stocks] 2021-06-01 Share is incorrect expected [266] but found [267]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+AAPL-Apple Inc.[Stocks] 2020-09-01 Share is incorrect expected [246] but found [250],
+AAPL-Apple Inc.[Stocks] 2020-09-01 Cash is incorrect expected [true] but found [false],
+AAPL-Apple Inc.[Stocks] 2021-03-01 Share is incorrect expected [260] but found [261],
+AAPL-Apple Inc.[Stocks] 2021-06-01 Share is incorrect expected [266] but found [267]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at test.ui.WealthFormula.QuarterlyShareAndCash.wealthFormula(QuarterlyShareAndCash.java:269)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Wealth Formula Quarterly Share and Cash Test ]]>
+            </line>
+            <line>
+              <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wealthFormula -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ui.WealthFormula.QuarterlyShareAndCash@6d4e5011]" started-at="2021-12-01T15:22:15 CST" name="tearDown" finished-at="2021-12-01T15:22:17 CST" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ui.WealthFormula.QuarterlyShareAndCash -->
+      <class name="test.ui.WealthFormula.YearlyInvestmentAndTotal">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ui.WealthFormula.YearlyInvestmentAndTotal@76c3e77a]" started-at="2021-12-01T15:20:13 CST" name="setUp" finished-at="2021-12-01T15:20:21 CST" duration-ms="7268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wealthFormula(java.lang.String)[pri:0, instance:test.ui.WealthFormula.YearlyInvestmentAndTotal@76c3e77a]" started-at="2021-12-01T15:20:21 CST" name="wealthFormula" finished-at="2021-12-01T15:24:52 CST" duration-ms="271617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Wealth Formula Yearly Investment and Investment Total Test ]]>
+            </line>
+            <line>
+              <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wealthFormula -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ui.WealthFormula.YearlyInvestmentAndTotal@76c3e77a]" started-at="2021-12-01T15:24:52 CST" name="tearDown" finished-at="2021-12-01T15:24:54 CST" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ui.WealthFormula.YearlyInvestmentAndTotal -->
+      <class name="test.ui.WealthFormula.MonthlyInvestmentAndTotal">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ui.WealthFormula.MonthlyInvestmentAndTotal@3d5c822d]" started-at="2021-12-01T15:09:18 CST" name="setUp" finished-at="2021-12-01T15:09:30 CST" duration-ms="12142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wealthFormula(java.lang.String)[pri:0, instance:test.ui.WealthFormula.MonthlyInvestmentAndTotal@3d5c822d]" started-at="2021-12-01T15:09:30 CST" name="wealthFormula" finished-at="2021-12-01T15:15:21 CST" duration-ms="351419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Wealth Formula Monthly Investment and Investment Total Test ]]>
+            </line>
+            <line>
+              <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wealthFormula -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ui.WealthFormula.MonthlyInvestmentAndTotal@3d5c822d]" started-at="2021-12-01T15:15:21 CST" name="tearDown" finished-at="2021-12-01T15:15:24 CST" duration-ms="2597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ui.WealthFormula.MonthlyInvestmentAndTotal -->
+      <class name="test.ui.WealthFormula.YearlyTotalValueAndReturn">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ui.WealthFormula.YearlyTotalValueAndReturn@67c33749]" started-at="2021-12-01T15:22:17 CST" name="setUp" finished-at="2021-12-01T15:22:25 CST" duration-ms="7810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wealthFormula(java.lang.String)[pri:0, instance:test.ui.WealthFormula.YearlyTotalValueAndReturn@67c33749]" started-at="2021-12-01T15:22:25 CST" name="wealthFormula" finished-at="2021-12-01T15:28:54 CST" duration-ms="389544" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+MSFT-Microsoft Corporation[Stocks] 2018-12-03 Return is incorrect expected [49.16] but found [49.17],
+MSFT-Microsoft Corporation[Stocks] 2021-01-04 Return is incorrect expected [110.1] but found [110.11]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+MSFT-Microsoft Corporation[Stocks] 2018-12-03 Return is incorrect expected [49.16] but found [49.17],
+MSFT-Microsoft Corporation[Stocks] 2021-01-04 Return is incorrect expected [110.1] but found [110.11]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at test.ui.WealthFormula.YearlyTotalValueAndReturn.wealthFormula(YearlyTotalValueAndReturn.java:151)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Wealth Formula Yearly Total Value and Return Test ]]>
+            </line>
+            <line>
+              <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wealthFormula -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ui.WealthFormula.YearlyTotalValueAndReturn@67c33749]" started-at="2021-12-01T15:28:54 CST" name="tearDown" finished-at="2021-12-01T15:28:56 CST" duration-ms="1447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ui.WealthFormula.YearlyTotalValueAndReturn -->
+      <class name="test.ui.WealthFormula.MonthlyShareAndCash">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ui.WealthFormula.MonthlyShareAndCash@5403f35f]" started-at="2021-12-01T15:09:18 CST" name="setUp" finished-at="2021-12-01T15:09:31 CST" duration-ms="12795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wealthFormula(java.lang.String)[pri:0, instance:test.ui.WealthFormula.MonthlyShareAndCash@5403f35f]" started-at="2021-12-01T15:09:31 CST" name="wealthFormula" finished-at="2021-12-01T15:15:30 CST" duration-ms="359994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Wealth Formula Monthly Share and Cash Test ]]>
+            </line>
+            <line>
+              <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wealthFormula -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ui.WealthFormula.MonthlyShareAndCash@5403f35f]" started-at="2021-12-01T15:15:31 CST" name="tearDown" finished-at="2021-12-01T15:15:33 CST" duration-ms="2198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ui.WealthFormula.MonthlyShareAndCash -->
+      <class name="test.ui.WealthFormula.OnceAtTheBeginningTotalValueAndReturn">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ui.WealthFormula.OnceAtTheBeginningTotalValueAndReturn@28f3b248]" started-at="2021-12-01T15:15:52 CST" name="setUp" finished-at="2021-12-01T15:16:01 CST" duration-ms="9237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wealthFormula(java.lang.String)[pri:0, instance:test.ui.WealthFormula.OnceAtTheBeginningTotalValueAndReturn@28f3b248]" started-at="2021-12-01T15:16:01 CST" name="wealthFormula" finished-at="2021-12-01T15:19:02 CST" duration-ms="180995" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+MSFT-Microsoft Corporation[Stocks] 2021-12-01 Return is incorrect expected [404.95] but found [404.94]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+MSFT-Microsoft Corporation[Stocks] 2021-12-01 Return is incorrect expected [404.95] but found [404.94]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at test.ui.WealthFormula.OnceAtTheBeginningTotalValueAndReturn.wealthFormula(OnceAtTheBeginningTotalValueAndReturn.java:152)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Wealth Formula Once At The Beginning Total Value and Return Test ]]>
+            </line>
+            <line>
+              <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wealthFormula -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ui.WealthFormula.OnceAtTheBeginningTotalValueAndReturn@28f3b248]" started-at="2021-12-01T15:19:02 CST" name="tearDown" finished-at="2021-12-01T15:19:04 CST" duration-ms="2392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ui.WealthFormula.OnceAtTheBeginningTotalValueAndReturn -->
+      <class name="test.ui.WealthFormula.QuarterlyInvestmentAndTotal">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ui.WealthFormula.QuarterlyInvestmentAndTotal@1b1426f4]" started-at="2021-12-01T15:18:47 CST" name="setUp" finished-at="2021-12-01T15:18:55 CST" duration-ms="7400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wealthFormula(java.lang.String)[pri:0, instance:test.ui.WealthFormula.QuarterlyInvestmentAndTotal@1b1426f4]" started-at="2021-12-01T15:18:55 CST" name="wealthFormula" finished-at="2021-12-01T15:21:55 CST" duration-ms="180656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Wealth Formula Quarterly Investment and Investment Total Test ]]>
+            </line>
+            <line>
+              <![CDATA[MSFT-Microsoft Corporation[Stocks],01 May 2017,5
+ADBE-Adobe Inc.[Stocks],01 May 2018,50
+GOOG-Alphabet Inc.[Stocks],01 May 2019,500
+AAPL-Apple Inc.[Stocks],01 May 2016,6
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wealthFormula -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ui.WealthFormula.QuarterlyInvestmentAndTotal@1b1426f4]" started-at="2021-12-01T15:21:55 CST" name="tearDown" finished-at="2021-12-01T15:21:57 CST" duration-ms="1483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ui.WealthFormula.QuarterlyInvestmentAndTotal -->
+    </test> <!-- WealthFomulaTest -->
+  </suite> <!-- FundpageSuite1 -->
+</testng-results>
